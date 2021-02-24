@@ -22,7 +22,6 @@ const initMapbox = () => {
       // style: 'mapbox://styles/robertobarros/cklikxku601i218qskhhhx3qx'
     });
 
-    map.setLayoutProperty('country-label', 'text-field', ['get','name_pt']);
 
     map.addControl(new MapboxGeocoder({ accessToken: mapboxgl.accessToken,
                                         mapboxgl: mapboxgl }));
